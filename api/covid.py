@@ -20,7 +20,7 @@ def updateTime():
     try: last_run
     except: last_run = None
     
-    # initialize last_run data
+    # initialize last_run data  . 
     if last_run is None:
         last_run = time.time()
         return True
