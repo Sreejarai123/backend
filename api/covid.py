@@ -1,7 +1,7 @@
 from contextlib import nullcontext
 from flask import Blueprint, jsonify  # jsonify creates an endpoint response object
 from flask_restful import Api, Resource # used for REST API building
-import requests  # used for testing 
+import requests  
 import time
 
 # Blueprints enable python code to be organized in multiple files and directories https://flask.palletsprojects.com/en/2.2.x/blueprints/
@@ -13,14 +13,14 @@ api = Api(covid_api)
 
 """Time Keeper
 Returns:
-    Boolean: is it time to update?
+    Boolean: Is it time to update?
 """
 def updateTime():
     global last_run  # the last_run global is preserved between calls to function
     try: last_run
     except: last_run = None
     
-    # initialize last_run data
+    # initialize last_run data  . 
     if last_run is None:
         last_run = time.time()
         return True
