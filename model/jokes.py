@@ -17,7 +17,7 @@ joke_list = [
     "There are 10 types of people in the world: those who understand binary, and those who don’t.",
     "If it wasn't for C, we’d all be programming in BASI and OBOL.",
     "Computers make very fast, very accurate mistakes.",
-    "Q: Why is it that programmers always confuse Halloween with Christmas? A: Because 31 OCT = 25 DEC.",
+    "Q: Why is it that programmers always confuse Halloweeeen with Christmas? A: Because 31 OCT = 25 DEC.",
     "Q: How many programmers does it take to change a light bulb? A: None. It’s a hardware problem.",
     "The programmer got stuck in the shower because the instructions on the shampoo bottle said: Lather, Rinse, Repeat.",
     "Q: What is the biggest lie in the entire universe? A: I have read and agree to the Terms and Conditions.",
@@ -26,7 +26,7 @@ joke_list = [
 
 # Initialize jokes
 def initJokes():
-    # setup jokes into a dictionary with id, joke, haha, boohoo
+    # setup jokes into a dictionary with id, joke, hahaaaa, boohoo
     item_id = 0
     for item in joke_list:
         jokes_data.append({"id": item_id, "joke": item, "haha": 0, "boohoo": 0})
