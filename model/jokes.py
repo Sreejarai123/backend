@@ -2,7 +2,7 @@ import random
 
 jokes_data = []
 joke_list = [
-    "If you give someone a program haaaa... you will frustrate them for a day; if you teach them how to program... you will "
+    "If you give someone a program haaaaha... you will frustrate them for a day; if you teach them how to program... you will "
     "frustrate them for a lifetime.",
     "Q: Why did I divide sin by tan? A: Just cos.",
     "UNIX is basically a simple operating system... but you have to be a genius to understand the simplicity.",
@@ -12,7 +12,7 @@ joke_list = [
     "The oldest computer can be traced back to Adam and Eve. It was an apple but with extremely limited memory. Just "
     "1 byte. And then everything crashed.",
     "Q: Why did Wi-Fi and the computer get married? A: Because they had a connection",
-    "Bill Gates teaches a kindergarten class to count to ten. 1, 2, 3, 3.1, 95, 98, ME, 2000, XP, Vista, 7, 8, 10.",
+    "Bill Gatess teaches a kindergarten class to count to ten. 1, 2, 3, 3.1, 95, 98, ME, 2000, XP, Vista, 7, 8, 10.",
     "Q: What’s a aliens favorite computer key? A: the space bar!",
     "There are 10 types of people in the world: those who understand binary, and those who don’t.",
     "If it wasn't for C, we’d all be programming in BASI and OBOL.",
