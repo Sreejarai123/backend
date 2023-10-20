@@ -30,3 +30,28 @@ while True:
         break
     else:
         print("Invalid option. Please select 1 or 2.")
+
+
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+flashcards = []
+
+@app.route('/create_flashcard', methods=['POST'])
+def create_flashcard():
+    data = request.get_json()
+
+    if 'question' not in data or 'answer' not in data:
+        return jsonify({'error': 'Missing question or answer'}), 400
+
+    question = data['question']
+    answer = data['answer']
+
+    flashcard = {'question': question, 'answer': answer}
+    flashcards.append(flashcard)
+
+    return jsonify({'message': 'Flashcard created successfully'})
+
+if __name__ == '__main__':
+    app.run(debug=True)
