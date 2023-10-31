@@ -28,12 +28,12 @@ def check_grammar():
     url = 'https://grammarbot.p.rapidapi.com/check'
 
     # Set your RapidAPI key
-    rapidapi_key = 'YOUR_RAPIDAPI_KEY'
+    rapidapi_key = '9fb198c26fmsh98120fcb28c72fdp100517jsn7aa4c1e9a84c'
 
     # Set headers for the request
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'X-RapidAPI-Key': rapidapi_key,
+        'X-RapidAPI-Key': '9fb198c26fmsh98120fcb28c72fdp100517jsn7aa4c1e9a84c',
         'X-RapidAPI-Host': 'grammarbot.p.rapidapi.com'
     }
 
@@ -54,3 +54,5 @@ def check_grammar():
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8086, debug=True)
+
+
