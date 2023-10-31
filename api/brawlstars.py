@@ -1,11 +1,11 @@
 import requests
 import json
-from flask import Blueprint, jsonify
-from flask_restful import Api, Resource # used for REST API building
-from flask import Flask, request
+from Flask import Blueprint, jsonify
+from Flask_restful import Api, Resource # used for REST API building
+from Flask import Flask, request
 import flask
 import json
-from flask_cors import CORS
+from Flask_cors import CORS
 
 app = Flask(__name__)
 
