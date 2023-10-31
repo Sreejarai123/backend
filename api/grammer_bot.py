@@ -1,6 +1,3 @@
-from flask import Flask, Blueprint, jsonify, request
-from flask_restful import Api, Resource
-from flask_cors import CORS
 import requests
 
 # URL and endpoint for GrammarBot API
@@ -18,7 +15,7 @@ headers = {
 
 # Set data for the request
 data = {
-    'text': 'Susan go to the store everyday',
+    'text': 'Susan goes to the store every day',  # corrected the grammar here
     'language': 'en-US'
 }
 
@@ -30,5 +27,3 @@ if response.status_code == 200:
     print(response.json())
 else:
     print(f"Error: {response.status_code}, {response.text}")
-    
-
